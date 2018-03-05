@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <style>
+        .ancho100{
+            width: 100%; 
+        }
+        .color_rosa_pastel{
+            background-color: #FADBD8;
+        }
+        
+        .osc{
+            font-family: 'Open Sans Condensed';
+            }
+        .color_fondo_principal{
+            background-color: #EEEEEE;
+        }
+        .color_azul{
+            background-color: #5FAEC5;
+        }
+        .textoblanco{
+            color: white;
+        }
+        .texto_rosa{
+            color: #E74C3C;
+        }
+        .titulo2{
+            font-size: 1.5em;
+            color: #1976D2;
+            font-weight: bold;
+             text-align: center;
+        }
+        .tarjeta{
+            border: 0px dashed red;
+            padding: 10px;
+            background-color: white;
+            margin: 10px 20px;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+            border-radius: 20px 20px 20px 20px;
+            margin-top: 5em;
+        }
+        #tabla1{
+            border-radius: 20px 20px 0 0;
+        }
+        #Inicio{
+            border-radius: 15px 0 0 0;
+        }
+        #Contacto{
+            border-radius: 0 15px 0 0;
+        }
+        #MiLogo{
+            margin: 10px;
+            width: 70%;
+        }
+        #TablaMenu td, #TablaMenu a:hover{
+            background-color: white;
+            color: #E74C3C;
+            cursor: pointer;
+        }
+        #TablaMenu{
+            margin-left: 30px;
+            margin-top: 15px;
+            border-radius: 30px 30px 0 0;
+        }
+        #TablaMenu td{
+            background-color: #E74C3C;
+            color: white;
+            font-size: 1em;
+            font-weight: 800;
+            letter-spacing: 2px;
+            padding: 10px;
+        }
+        body{
+            padding: 30px;
+        }
+        body, div, td{
+                font-family: 'Open Sans';
+                font-weight:300;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    </head>
+<body background="Images/goma1.jpg">
+        
+                               <!-- Header -->
+    <table border="0" class="ancho100 color_rosa_pastel textoblanco" id="tabla1">
+        <tr>
+            <td id="MiLogo"><img src="images/logo1.png"></td>
+            <td class="titulo">
+            <table id="TablaMenu" cellspacing=0>
+                <td class="color_rosa" id="Inicio"><a href="index.html">Inicio</a></td>
+                <td class="color_blanco texto_rosa"><a href="Productos.html">Productos</a></td>
+                <td class="color_rosa" id="Contacto"><a href="Formulario.html">Contactanos</a></td>
+        </table> 
+            </td>
+        </tr>
+    </table>
+    
+                                        <!-- Contenido -->
+    <table border="0" class="ancho100 bordeblanco color_fondo_principal" id="tabla2">
+        <tr>
+            <div class="titulo color_fondo_principal titulo2"> Contactanos </div>
+        </tr>
+        <tr>
+        <td>
+
+      <section class="tarjeta">
+            <div class="color_fondo_principal">
+    <FORM ACTION="mailto:gosaba@gmail.com" METHOD="POST" ENCTYPE="TEXT/PLAIN">
+            <p>Nombre Completo</p><INPUT TYPE="text" NAME="Nombre Completo" size="20" maxlength="50">
+            <p>Telefono:</p><INPUT TYPE="text" NAME="Grupo" size="10" maxlength="10">
+            <p>comentarios:</p>
+            <INPUT TYPE="text" NAME="Carrera" size="30" maxlength="50">
+            <P>
+            <INPUT TYPE="submit" VALUE="Enviar datos"> 
+                <Input type="reset"  value="volver a comenzar"></Input>
+            </INPUT>
+            </P>
+            </INPUT>
+            </INPUT></INPUT></FORM>
+                </div>
+       </section>
+    </td></tr>
+    </table>
+    </body>
+</html>

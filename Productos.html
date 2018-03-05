@@ -1,0 +1,196 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <style>
+        .ancho100{
+            width: 100%; 
+        }
+        .color_rosa_pastel{
+            background-color: #FADBD8;
+        }
+        
+        .osc{
+            font-family: 'Open Sans Condensed';
+            }
+        .color_fondo_principal{
+            background-color: #EEEEEE;
+        }
+        .color_azul{
+            background-color: #5FAEC5;
+        }
+        .textoblanco{
+            color: white;
+        }
+        .texto_rosa{
+            color: #E74C3C;
+        }
+        .tarjeta{
+            border: 0px dashed red;
+            padding: 10px;
+            background-color: white;
+            margin: 10px 20px;
+            box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+            border-radius: 20px 20px 20px 20px;
+            margin-top: 5em;
+        }
+         .tarjeta:hover{
+            background-color: #FADBD8;
+            color: #E74C3C;
+            cursor: pointer;
+        }
+        .imgcora{
+            border-radius: 10px;
+            box-shadow: 10px 5px 20px rgba(0,0,0, 0.4);
+            width: 300px;
+            margin-left: 30px;
+             opacity: 0.85;
+             height: 200px;
+             text-align: center;
+        }
+         .tarjeta .titulo{
+            font-size: 1.5em;
+            color: #1976D2;
+            font-weight: bold;
+             text-align: center;
+        }
+        .titulo{
+            font-size: 1.5em;
+            color: #1976D2;
+            font-weight: bold;
+             text-align: center;
+        }
+        .tarjeta .contenido{
+            font-size: 6em;
+            color: black;
+            text-align: center;
+            font-size: 16px; 
+        }
+        #tabla1{
+            border-radius: 20px 20px 0 0;
+        }
+        #Inicio{
+            border-radius: 15px 0 0 0;
+        }
+        #Contacto{
+            border-radius: 0 15px 0 0;
+        }
+        #MiLogo{
+            margin: 10px;
+            width: 70%;
+        }
+        #TablaMenu td, #TablaMenu a:hover{
+            background-color: white;
+            color: #E74C3C;
+            cursor: pointer;
+        }
+        #TablaMenu{
+            margin-left: 30px;
+            margin-top: 15px;
+            border-radius: 30px 30px 0 0;
+        }
+        #TablaMenu td{
+            background-color: #E74C3C;
+            color: white;
+            font-size: 1em;
+            font-weight: 800;
+            letter-spacing: 2px;
+            padding: 10px;
+        }
+        body{
+            padding: 30px;
+        }
+        body, div, td{
+                font-family: 'Open Sans';
+                font-weight:300;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    </head>
+<body background="Images/goma1.jpg">
+        
+                               <!-- Header -->
+    
+    <table border="0" class="ancho100 color_rosa_pastel textoblanco" id="tabla1">
+        <tr>
+            <td id="MiLogo"><img src="images/logo1.png"></td>
+            <td class="titulo">
+            <table id="TablaMenu" cellspacing=0>
+                <td class="color_rosa" id="Inicio"><a href="index.html" target="_blank">Inicio</a></td>
+                <td class="color_blanco texto_rosa">Productos</td>
+                <td class="color_rosa" id="Contacto"><a href="Formulario.html" target="_blank">Contactanos</a></td>
+        </table> 
+            </td>
+        </tr>
+    </table>
+    
+                                    <!-- Contenido -->
+    <table border="0" class="ancho100 bordeblanco color_fondo_principal" id="tabla2">
+        <tr>
+           <div class="titulo color_fondo_principal"> <img src="Images/productos.gif"></div>
+        </tr>
+        <tr>
+            <td id="idGoma1">
+                <section class="tarjeta">
+                    <div class="titulo">
+                       Goma de Corazon Enchilada
+                    </div>
+                    <div class="linea">
+                     <img class="imgcora" src="Images/gomacora.jpg">
+                    </div>
+                    <div class="contenido">
+                       Ideal Para regalar a tus seres queridos, en una fecha especial                     
+                    </div>
+                </section>
+            </td>
+            
+            <td id="idGoma2">
+                <section class="tarjeta">
+                    <div class="titulo">
+                       Goma enchilada Picosa
+                    </div>
+                    <div class="linea">
+                     <img class="imgcora" src="Images/gomaenhi.jpg">
+                    </div>
+                    <div class="contenido">
+                       Rica Goma con un sabor picante que te hara sudar!                      
+                    </div>
+                </section>
+            </td>
+            <td id="idGoma3">
+                <section class="tarjeta">
+                    <div class="titulo">
+                       Gomitas Dulces
+                    </div>
+                    <div class="linea">
+                     <img class="imgcora" src="Images/gomastodo.jpeg">
+                    </div>
+                    <div class="contenido">
+                       Ricas Gomitas de todos los sabores para el antojo del dia.                      
+                    </div>
+                </section>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+ 
+    </body>
+</html>
